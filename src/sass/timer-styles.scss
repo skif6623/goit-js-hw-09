@@ -1,0 +1,25 @@
+.timer {
+  display: flex;
+}
+
+.field {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 40px;
+
+  &.color {
+    color: red;
+  }
+}
+
+.label {
+  display: block;
+
+  &.color {
+    color: red;
+  }
+}
